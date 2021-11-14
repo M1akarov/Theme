@@ -1,0 +1,43 @@
+
+
+body {
+  --text-color: #222;
+  --bkg-color: #fff;
+    transition: 1s linear;
+}
+body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: #121212;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+.content {
+  text-align: center;
+}
+
+h1,
+p {
+  color: var(--text-color);
+}
+button {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  border-radius: 20px;
+  background: #121212;
+  color: #eee;
+  transition: 1s linear;
+}
+
+body.dark-theme button {
+  background: #eee;
+  color: #121212;
+}
