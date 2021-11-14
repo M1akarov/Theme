@@ -35,6 +35,7 @@ button {
   background: #121212;
   color: #eee;
   transition: 1s linear;
+  cursor: pointer;
 }
 
 body.dark-theme button {
